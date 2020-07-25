@@ -6,23 +6,24 @@ superuser: true
 authors:
   - admin
 title: Berke Ricketti
-role: Professor of Artificial Intelligence
+role: Physics Ph.D. Candidate
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Physics
+  - Space
+  - Astronomy
+  - Ice Hockey
 social:
   - icon: envelope
     icon_pack: fas
     link: "#contact"
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://twitter.com/cyprusgoalie6
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/cyprusgoalie6/
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
