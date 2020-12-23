@@ -1,0 +1,39 @@
+<!DOCType HTML>
+<html>
+<head>
+<title>Testing JavaScript</title>
+</head>
+<body>
+<h3>Guess Your Gift!</h3>
+
+<img src="ptu.jpg" alt="Italian Trulli">
+
+<input type="text" id="myText" value="Guess here...">
+
+<p>Click the "Submit" button to check your answer. (Hint: It's 3 words)</p>
+
+<button onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+<p id="link"></p>
+
+<script>
+function myFunction() {
+	var x = document.getElementById("myText").value;
+	var answer = "Part Time UFO";
+	var areEqual = x.toUpperCase() === answer.toUpperCase();
+	if(areEqual == 1)
+	{
+		document.getElementById("demo").innerHTML = "Correct!";
+		var str = "Click Here For Your Prize!";
+		document.getElementById("link").innerHTML = str.link("https://youtu.be/KJgs0lAWZ3I");
+	}
+	else
+	{
+		document.getElementById("demo").innerHTML = "Sorry, try again!";
+	}
+}
+</script>
+
+</body>
+</html>
